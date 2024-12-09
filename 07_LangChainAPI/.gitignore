@@ -1,0 +1,61 @@
+# Dipendenze Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente locale
+.env
+.env.*.local
+
+# Output delle build
+dist/
+build/
+
+# File temporanei di sistema
+.DS_Store
+Thumbs.db
+
+# Log delle applicazioni
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# File temporanei
+*.tmp
+*.temp
+
+# Cache
+.cache/
+.cache-loader/
+.vscode/
+
+# Configurazioni specifiche di editor
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Output di test coverage
+coverage/
+
+# File di lock delle dipendenze
+package-lock.json
+yarn.lock
+
+# File di configurazione temporanei
+*.local
+*.bak
+*.orig
+*.rej
+
+# File di output di debugging
+debug/
+
+# Documentazione e tool di lint
+.nyc_output/
+.eslintcache
